@@ -101,6 +101,8 @@
 		A41F7D75273EEFDA00C5C9AB /* TawkTestTask */ = {
 			isa = PBXGroup;
 			children = (
+				A41F7DAB273EF55800C5C9AB /* Utils */,
+				A41F7DA9273EF54500C5C9AB /* Modules */,
 				A41F7D76273EEFDA00C5C9AB /* AppDelegate.swift */,
 				A41F7D78273EEFDA00C5C9AB /* SceneDelegate.swift */,
 				A41F7D7A273EEFDA00C5C9AB /* ViewController.swift */,
@@ -128,6 +130,36 @@
 				A41F7D9C273EEFDB00C5C9AB /* TawkTestTaskUITestsLaunchTests.swift */,
 			);
 			path = TawkTestTaskUITests;
+			sourceTree = "<group>";
+		};
+		A41F7DA9273EF54500C5C9AB /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A41F7DAC273EF63900C5C9AB /* GitHubUsersList */,
+				A41F7DAD273EF65000C5C9AB /* UserProfile */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A41F7DAB273EF55800C5C9AB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A41F7DAC273EF63900C5C9AB /* GitHubUsersList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GitHubUsersList;
+			sourceTree = "<group>";
+		};
+		A41F7DAD273EF65000C5C9AB /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserProfile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
