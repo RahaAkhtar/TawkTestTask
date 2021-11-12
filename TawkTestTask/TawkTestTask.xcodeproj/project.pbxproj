@@ -151,6 +151,9 @@
 		A41F7DAC273EF63900C5C9AB /* GitHubUsersList */ = {
 			isa = PBXGroup;
 			children = (
+				A41F7DAF273EF6D800C5C9AB /* Model */,
+				A41F7DB0273EF6F000C5C9AB /* View */,
+				A41F7DAE273EF6CE00C5C9AB /* ViewModel */,
 			);
 			path = GitHubUsersList;
 			sourceTree = "<group>";
@@ -158,8 +161,53 @@
 		A41F7DAD273EF65000C5C9AB /* UserProfile */ = {
 			isa = PBXGroup;
 			children = (
+				A41F7DBE273EF7A500C5C9AB /* Model */,
+				A41F7DBD273EF7A500C5C9AB /* View */,
+				A41F7DBF273EF7A500C5C9AB /* ViewModel */,
 			);
 			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		A41F7DAE273EF6CE00C5C9AB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A41F7DAF273EF6D800C5C9AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A41F7DB0273EF6F000C5C9AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A41F7DBD273EF7A500C5C9AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A41F7DBE273EF7A500C5C9AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A41F7DBF273EF7A500C5C9AB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
