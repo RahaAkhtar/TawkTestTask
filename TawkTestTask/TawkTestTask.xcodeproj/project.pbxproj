@@ -37,6 +37,12 @@
 		A49D69DC27426B5700C05900 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49D69CD27426B5700C05900 /* NetworkService.swift */; };
 		A49D69DD27426B5700C05900 /* PostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49D69CE27426B5700C05900 /* PostApi.swift */; };
 		A49D69DE27426B5700C05900 /* C-URL+Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49D69CF27426B5700C05900 /* C-URL+Credentials.swift */; };
+		A49D69E127427BAB00C05900 /* GitUserVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49D69E027427BAB00C05900 /* GitUserVCExtension.swift */; };
+		A49D69E52742817C00C05900 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49D69E32742817C00C05900 /* UserTableViewCell.swift */; };
+		A49D69E62742817C00C05900 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A49D69E42742817C00C05900 /* UserTableViewCell.xib */; };
+		A49D69E9274284E800C05900 /* ProfileVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49D69E8274284E800C05900 /* ProfileVCExtension.swift */; };
+		A49D69ED27428A7600C05900 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49D69EB27428A7600C05900 /* ProfileTableViewCell.swift */; };
+		A49D69EE27428A7600C05900 /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A49D69EC27428A7600C05900 /* ProfileTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +97,12 @@
 		A49D69CD27426B5700C05900 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		A49D69CE27426B5700C05900 /* PostApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostApi.swift; sourceTree = "<group>"; };
 		A49D69CF27426B5700C05900 /* C-URL+Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "C-URL+Credentials.swift"; sourceTree = "<group>"; };
+		A49D69E027427BAB00C05900 /* GitUserVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitUserVCExtension.swift; sourceTree = "<group>"; };
+		A49D69E32742817C00C05900 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		A49D69E42742817C00C05900 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		A49D69E8274284E800C05900 /* ProfileVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVCExtension.swift; sourceTree = "<group>"; };
+		A49D69EB27428A7600C05900 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		A49D69EC27428A7600C05900 /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +207,7 @@
 		A41F7DAC273EF63900C5C9AB /* GitHubUsersList */ = {
 			isa = PBXGroup;
 			children = (
+				A49D69DF27427B7900C05900 /* Extension */,
 				A41F7DAF273EF6D800C5C9AB /* Model */,
 				A41F7DB0273EF6F000C5C9AB /* View */,
 				A41F7DAE273EF6CE00C5C9AB /* ViewModel */,
@@ -205,6 +218,7 @@
 		A41F7DAD273EF65000C5C9AB /* UserProfile */ = {
 			isa = PBXGroup;
 			children = (
+				A49D69E7274284C900C05900 /* Extension */,
 				A41F7DBE273EF7A500C5C9AB /* Model */,
 				A41F7DBD273EF7A500C5C9AB /* View */,
 				A41F7DBF273EF7A500C5C9AB /* ViewModel */,
@@ -231,6 +245,7 @@
 		A41F7DB0273EF6F000C5C9AB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A49D69E22742815000C05900 /* UserCell */,
 				A49D69B927426A9100C05900 /* GitUserViewController.swift */,
 			);
 			path = View;
@@ -239,6 +254,7 @@
 		A41F7DBD273EF7A500C5C9AB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A49D69EA27428A5800C05900 /* ProfileCell */,
 				A49D69B32742698900C05900 /* ProfileViewController.swift */,
 			);
 			path = View;
@@ -316,6 +332,40 @@
 				A49D69CC27426B5700C05900 /* GenralModels.swift */,
 			);
 			path = GenralModel;
+			sourceTree = "<group>";
+		};
+		A49D69DF27427B7900C05900 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A49D69E027427BAB00C05900 /* GitUserVCExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A49D69E22742815000C05900 /* UserCell */ = {
+			isa = PBXGroup;
+			children = (
+				A49D69E32742817C00C05900 /* UserTableViewCell.swift */,
+				A49D69E42742817C00C05900 /* UserTableViewCell.xib */,
+			);
+			path = UserCell;
+			sourceTree = "<group>";
+		};
+		A49D69E7274284C900C05900 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A49D69E8274284E800C05900 /* ProfileVCExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A49D69EA27428A5800C05900 /* ProfileCell */ = {
+			isa = PBXGroup;
+			children = (
+				A49D69EB27428A7600C05900 /* ProfileTableViewCell.swift */,
+				A49D69EC27428A7600C05900 /* ProfileTableViewCell.xib */,
+			);
+			path = ProfileCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,9 +472,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A49D69E62742817C00C05900 /* UserTableViewCell.xib in Resources */,
 				A41F7D86273EEFDB00C5C9AB /* LaunchScreen.storyboard in Resources */,
 				A41F7D83273EEFDB00C5C9AB /* Assets.xcassets in Resources */,
 				A41F7D7E273EEFDA00C5C9AB /* Main.storyboard in Resources */,
+				A49D69EE27428A7600C05900 /* ProfileTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,8 +502,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A49D69DC27426B5700C05900 /* NetworkService.swift in Sources */,
+				A49D69ED27428A7600C05900 /* ProfileTableViewCell.swift in Sources */,
+				A49D69E127427BAB00C05900 /* GitUserVCExtension.swift in Sources */,
 				A49D69D627426B5700C05900 /* UIViewController+Extension.swift in Sources */,
 				A41F7D77273EEFDA00C5C9AB /* AppDelegate.swift in Sources */,
+				A49D69E52742817C00C05900 /* UserTableViewCell.swift in Sources */,
 				A49D69D127426B5700C05900 /* Constants.swift in Sources */,
 				A41F7D79273EEFDA00C5C9AB /* SceneDelegate.swift in Sources */,
 				A49D69B8274269C600C05900 /* ProfileViewModel.swift in Sources */,
@@ -466,6 +521,7 @@
 				A49D69DE27426B5700C05900 /* C-URL+Credentials.swift in Sources */,
 				A49D69D327426B5700C05900 /* LoadingDialog+ViewContoller.swift in Sources */,
 				A49D69DA27426B5700C05900 /* Media.swift in Sources */,
+				A49D69E9274284E800C05900 /* ProfileVCExtension.swift in Sources */,
 				A41F7D81273EEFDA00C5C9AB /* TawkTestTask.xcdatamodeld in Sources */,
 				A49D69D027426B5700C05900 /* ENUMs.swift in Sources */,
 				A49D69B62742699B00C05900 /* ProfileModel.swift in Sources */,
